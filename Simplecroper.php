@@ -7,10 +7,12 @@ class Simplecroper {
 	private $error;
 
 	public function __construct(){
+
 		$this->CI =& get_instance();
 		$config['image_library'] = 'gd2';
 		$config['maintain_ratio'] = FALSE;
 		$this->CI->load->library('image_lib', $config);
+		$this->error = FALSE;
 	}
 
 	public function crop($source_height,$source_width,$source,$final_height,$final_width,$destination){
@@ -62,6 +64,16 @@ class Simplecroper {
 		}
 		else{
 			return TRUE;
+		}
+	}
+
+	public function get_error(){
+
+		if($this->error){
+			return $this->error;
+		}
+		else{
+			return FALSE;
 		}
 	}
 
