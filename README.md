@@ -12,6 +12,3 @@ public function crop($source_height,$source_width,$source,$final_height,$final_w
 
 ##Contributor
 - Mahdi Majidzadeh ([github](https://github.com/MahdiMajidzadeh))
-
-## Donate
-You can use [payping](https://www.payping.ir/Mahdimajidzadeh) to donate contributor
