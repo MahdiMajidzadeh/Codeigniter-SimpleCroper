@@ -1,4 +1,8 @@
 # Codeigniter-SimpleCroper
+[![StyleCI](https://github.styleci.io/repos/58599457/shield?branch=master)](https://github.styleci.io/repos/58599457)
+
+## This library not maintained eny more
+
 a simple library for crop image without distortion
 
 ## how to install
